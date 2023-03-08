@@ -22,7 +22,7 @@ pipeline {
 
         stage('deploy') {
             steps {
-                sh 'npm serve'
+                sh 'npm start'
             }
         }
     }
